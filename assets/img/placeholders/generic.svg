@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Aurelia placeholder">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FAF8F5"/><stop offset="1" stop-color="#EDE4D4"/>
+  </linearGradient></defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="400" cy="520" r="120" fill="none" stroke="#C6A15B" stroke-width="5"/>
+  <path d="M400 340l32 44-32 44-32-44z" fill="none" stroke="#C6A15B" stroke-width="5"/>
+  <text x="400" y="856" text-anchor="middle" font-family="Georgia, serif" font-size="44" letter-spacing="10" fill="#0E0E10">AURELIA</text>
+</svg>

@@ -1,0 +1,57 @@
+{
+  "_readme": "Blog index metadata. Each entry must have a matching HTML file at the 'url' path. Add a post by creating the HTML file (copy an existing one) and adding an entry here — newest first.",
+  "posts": [
+    {
+      "slug": "anti-tarnish-explained",
+      "url": "blog-anti-tarnish-explained.html",
+      "title": "What anti-tarnish actually means (and what it doesn't)",
+      "excerpt": "Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.",
+      "category": "Technology",
+      "date": "2026-09-22",
+      "dateLabel": "22 September 2026",
+      "readingTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e",
+      "fallback": "assets/img/placeholders/generic.svg",
+      "alt": "A bright, untarnished ring photographed on a dark surface"
+    },
+    {
+      "slug": "silver-vs-gold-plated",
+      "url": "blog-silver-vs-gold-plated.html",
+      "title": "Sterling silver vs gold-plated vs steel: which should you buy?",
+      "excerpt": "Four materials, four very different lifespans and price points. A straight comparison of how each one behaves on real skin over real years.",
+      "category": "Buying guide",
+      "date": "2026-08-14",
+      "dateLabel": "14 August 2026",
+      "readingTime": "8 min read",
+      "image": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516",
+      "fallback": "assets/img/placeholders/generic.svg",
+      "alt": "Gold and silver-toned rings stacked side by side"
+    },
+    {
+      "slug": "humid-climate-storage",
+      "url": "blog-humid-climate-storage.html",
+      "title": "How to store jewelry in a humid climate",
+      "excerpt": "If you live somewhere with a monsoon, humidity is the single biggest threat to your jewelry. Six storage habits that make more difference than any polish.",
+      "category": "Care",
+      "date": "2026-07-08",
+      "dateLabel": "8 July 2026",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1631982690223-8aa4be0a2497",
+      "fallback": "assets/img/placeholders/generic.svg",
+      "alt": "Rings stored in a lined jewelry box"
+    },
+    {
+      "slug": "everyday-jewelry-edit",
+      "url": "blog-everyday-jewelry-edit.html",
+      "title": "The five-piece everyday edit",
+      "excerpt": "You do not need a collection. You need five pieces that work with everything you already own — and that survive being worn without thinking about them.",
+      "category": "Styling",
+      "date": "2026-06-03",
+      "dateLabel": "3 June 2026",
+      "readingTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52",
+      "fallback": "assets/img/placeholders/generic.svg",
+      "alt": "A small set of layered everyday necklaces"
+    }
+  ]
+}

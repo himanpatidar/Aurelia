@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Aurelia Necklaces placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF8F5"/>
+      <stop offset="0.55" stop-color="#F3EFE9"/>
+      <stop offset="1" stop-color="#EDE4D4"/>
+    </linearGradient>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D9BE84"/>
+      <stop offset="1" stop-color="#9C7C3F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#ln)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M210 400c0 150 85 260 190 260s190-110 190-260" /><path d="M240 400c0 130 72 226 160 226s160-96 160-226" /><circle cx="400" cy="700" r="42" /><path d="M400 660v-34" /></g>
+  <text x="400" y="856" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="44" letter-spacing="10" fill="#0E0E10">AURELIA</text>
+  <text x="400" y="898" text-anchor="middle" font-family="Helvetica, Arial, sans-serif"
+        font-size="19" letter-spacing="5.5" fill="#6B6B70">NECKLACES</text>
+</svg>

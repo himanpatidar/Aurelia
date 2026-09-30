@@ -1,0 +1,59 @@
+{
+  "_readme": "Customer testimonials shown on the home and about pages. 'initials' drives the avatar circle. Replace with your own once you have real reviews — please do not publish reviews you did not receive.",
+  "testimonials": [
+    {
+      "quote": "I wore the Lumen hoops every single day for eight months, including two weeks by the sea, and they look exactly the way they did when they arrived. I have never managed that with any other pair.",
+      "name": "Ananya R.",
+      "initials": "AR",
+      "location": "Bengaluru",
+      "product": "Lumen Huggie Hoops",
+      "productSlug": "lumen-huggie-hoops",
+      "rating": 5
+    },
+    {
+      "quote": "My skin reacts to almost everything, so I had low expectations. Six months in the Eterna ring has not left a single mark on my finger and there is no green line underneath it.",
+      "name": "Priya M.",
+      "initials": "PM",
+      "location": "Pune",
+      "product": "Eterna Solitaire Ring",
+      "productSlug": "eterna-solitaire-ring",
+      "rating": 5
+    },
+    {
+      "quote": "The layered necklace was the thing that sold me on the brand. Two chains that genuinely do not tangle — I did not think that existed at this price.",
+      "name": "Sneha K.",
+      "initials": "SK",
+      "location": "Mumbai",
+      "product": "Solène Layered Necklace",
+      "productSlug": "solene-layered-necklace",
+      "rating": 5
+    },
+    {
+      "quote": "Bought the signature set as a wedding gift and ended up ordering a second one for myself. The gold tone matches perfectly across all three pieces, which you really notice in photos.",
+      "name": "Divya S.",
+      "initials": "DS",
+      "location": "Hyderabad",
+      "product": "Aurelia Signature Set",
+      "productSlug": "aurelia-signature-set",
+      "rating": 5
+    },
+    {
+      "quote": "Monsoon in Kerala destroys jewelry. This is the first silver anklet I have owned that made it through a full season without going dull, and it was the cheapest thing in the order.",
+      "name": "Meera J.",
+      "initials": "MJ",
+      "location": "Kochi",
+      "product": "Tara Beaded Anklet",
+      "productSlug": "tara-beaded-anklet",
+      "rating": 4
+    },
+    {
+      "quote": "The herringbone is the real test and it passed. I have kinked two of these before. This one has been worn constantly for four months and still lies completely flat.",
+      "name": "Riya T.",
+      "initials": "RT",
+      "location": "Delhi",
+      "product": "Mira Herringbone Necklace",
+      "productSlug": "mira-herringbone-necklace",
+      "rating": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Aurelia — https://himanpatidar.github.io/Aurelia/
+User-agent: *
+Allow: /
+
+# Cart, checkout and account pages hold no indexable content.
+Disallow: /Aurelia/cart.html
+Disallow: /Aurelia/checkout.html
+Disallow: /Aurelia/order-confirmation.html
+Disallow: /Aurelia/account.html
+
+Sitemap: https://himanpatidar.github.io/Aurelia/sitemap.xml

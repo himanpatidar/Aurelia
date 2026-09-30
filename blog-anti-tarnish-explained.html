@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What anti-tarnish actually means (and what it doesn't) — Aurelia Journal</title>
+  <meta name="description" content="Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.">
+  <link rel="canonical" href="https://himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Aurelia">
+  <meta property="og:title" content="What anti-tarnish actually means (and what it doesn't) — Aurelia Journal">
+  <meta property="og:description" content="Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.">
+  <meta property="og:url" content="https://himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&h=630&q=82">
+  <meta property="og:image:alt" content="Aurelia anti-tarnish jewelry">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What anti-tarnish actually means (and what it doesn't) — Aurelia Journal">
+  <meta name="twitter:description" content="Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&h=630&q=82">
+  <meta name="theme-color" content="#0E0E10">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"What anti-tarnish actually means (and what it doesn't)","description":"Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.","datePublished":"2026-09-22","dateModified":"2026-09-22","image":"https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&h=675&q=82","url":"https://himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html","articleSection":"Technology","mainEntityOfPage":{"@type":"WebPage","@id":"https://himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html"},"author":{"@type":"Organization","name":"Aurelia","url":"https://himanpatidar.github.io/Aurelia/"},"publisher":{"@type":"Organization","name":"Aurelia","logo":{"@type":"ImageObject","url":"https://himanpatidar.github.io/Aurelia/assets/img/logo.svg"}}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://himanpatidar.github.io/Aurelia/index.html"},{"@type":"ListItem","position":2,"name":"Journal","item":"https://himanpatidar.github.io/Aurelia/blog.html"},{"@type":"ListItem","position":3,"name":"What anti-tarnish actually means (and what it doesn't)"}]}</script>
+  <script>document.documentElement.classList.add('js')</script>
+  <!-- ^ lets CSS hide scroll-reveal elements only when JS can reveal them -->
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<!-- #site-nav:start — edit here, then run: node tools/sync-chrome.mjs -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-bar">
+      <a class="brand" href="index.html" aria-label="Aurelia — home">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E3CFA3"/><stop offset="1" stop-color="#9C7C3F"/></linearGradient></defs><circle cx="24" cy="24" r="22" fill="none" stroke="url(#bm)" stroke-width="1.5"/><path d="M24 9l11 26h-4.6l-2.5-6.2h-7.8L17.6 35H13L24 9zm0 8.4l-2.9 7.3h5.8L24 17.4z" fill="url(#bm)"/></svg>
+        <span>Aurelia<small>Anti-Tarnish Fine Jewelry</small></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+          <a href="shop.html">Shop</a>
+          <a href="anti-tarnish.html">Anti-Tarnish</a>
+          <a href="care-guide.html">Care</a>
+          <a href="blog.html">Journal</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="icon-btn" href="shop.html#shop-search" aria-label="Search products"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.9-3.9"/></svg></a>
+        <a class="icon-btn" href="account.html" aria-label="Your account"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5S20 17 20 21"/></svg></a>
+        <button type="button" class="icon-btn" data-drawer-open="cart-drawer" aria-label="Open your bag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="cart-badge" data-cart-count hidden>0</span>
+        </button>
+        <button type="button" class="icon-btn nav-toggle" data-drawer-open="nav-drawer" aria-label="Open menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- #site-nav:end -->
+<main id="main">
+
+<div class="container section-tight">
+  <div class="container-narrow" style="margin-inline:auto;padding-inline:0">
+    <nav aria-label="Breadcrumb"><ol class="breadcrumbs"><li><a href="index.html">Home</a></li><li><a href="blog.html">Journal</a></li><li><span aria-current="page">What anti-tarnish actually means (and what it doesn't)</span></li></ol></nav>
+    <header class="article-head" style="margin-top:var(--s-6)">
+      <div class="pc-meta" style="font-size:var(--fs-xs);color:var(--muted);display:flex;gap:var(--s-3);flex-wrap:wrap">
+        <span class="badge badge-soft">Technology</span>
+        <time datetime="2026-09-22">22 September 2026</time>
+        <span>7 min read</span>
+      </div>
+      <h1>What anti-tarnish actually means (and what it doesn't)</h1>
+      <p class="lede">Tarnish is a chemical reaction, not dirt. Here is what causes it, what a barrier coating can realistically prevent, and the claims you should be sceptical of.</p>
+      <div class="share">
+      <span style="font-size:var(--fs-xs);color:var(--muted);margin-right:var(--s-2)">Share</span>
+      <a href="https://wa.me/?text=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29%20https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15L2 22l5.1-1.4A9.9 9.9 0 1 0 12 2zm0 1.8a8.1 8.1 0 1 1-4.2 15l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 0 1 12 3.8zm-3.3 4c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4 1.9.8 2.3.7 2.7.6.4 0 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.4-.3l-1.4-.7c-.2-.1-.4-.1-.5.1l-.6.8c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.4-.5c.1-.2.1-.3 0-.5l-.6-1.4c-.2-.4-.3-.4-.5-.4h-.6z"/></svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5H16.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V14h2.7v8h3.5z"/></svg></a>
+      <a href="https://twitter.com/intent/tweet?text=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29&url=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3.2l-7 8 7.3 10h-5.6l-4.4-6-5 6H2.8l7.3-8.6L3.1 3h5.7l4.1 5.6L17.5 3zm-1.1 16h1.7L7.6 4.8H5.8L16.4 19z"/></svg></a>
+      <a href="https://pinterest.com/pin/create/button/?url=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html&description=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29" target="_blank" rel="noopener" aria-label="Save to Pinterest"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.7 19.3c-.1-.8-.2-2 0-2.9l1.2-5.1s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 1-.6 2.4-.9 3.8-.3 1.1.6 2 1.7 2 2 0 3.4-2.6 3.4-5.6 0-2.3-1.6-4-4.4-4-3.2 0-5.2 2.4-5.2 5 0 .9.3 1.6.7 2.1.1.2.2.3.1.5l-.3 1.1c0 .2-.2.3-.4.2-1.1-.5-1.8-2-1.8-3.3 0-2.7 2.2-6.1 6.7-6.1 3.6 0 6 2.6 6 5.4 0 3.7-2.1 6.5-5.1 6.5-1 0-2-.5-2.3-1.2l-.6 2.4c-.2.9-.8 2-1.2 2.7A10 10 0 1 0 12 2z"/></svg></a>
+      <a href="mailto:?subject=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29&body=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" aria-label="Share by email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg></a>
+    </div>
+    </header>
+  </div>
+
+  <div class="container-narrow" style="margin-inline:auto;padding-inline:0">
+    <figure class="article-hero">
+    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&h=675&q=82"
+         srcset="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=700&h=394&q=78 700w, https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&h=675&q=82 1200w"
+         sizes="(min-width:900px) 760px, 92vw"
+         alt="Close-up of bright silver jewelry on a neutral surface" width="1200" height="675" fetchpriority="high" decoding="async" data-fallback="assets/img/placeholders/generic.svg">
+  </figure>
+    <article class="prose" style="max-width:none">
+
+      <p>Almost every jewelry brand now uses the phrase "anti-tarnish". Very few explain what it means, and the gap between the best and the worst treatments sold under that label is enormous. This is the explanation we would have wanted before we started making jewelry.</p>
+
+      <h2>Tarnish is a reaction, not a residue</h2>
+      <p>The first thing to get straight: tarnish is not dirt. When silver darkens, the silver atoms on the surface have chemically combined with sulphur to form a new compound — silver sulphide — which happens to be black. Nothing has landed on the metal. The metal itself has changed.</p>
+      <p>This matters enormously for how you treat it. Dirt comes off with cleaning. A chemical reaction has to be either reversed or prevented. A polishing cloth "works" by physically abrading the silver sulphide layer away, taking a thin layer of your jewelry with it every time. Do that often enough and you will eventually polish through a plated finish entirely.</p>
+      <p>Prevention is the only approach that does not slowly destroy the piece.</p>
+
+      <h2>Where the sulphur comes from</h2>
+      <p>People are often surprised that ordinary indoor air is enough. Hydrogen sulphide exists in trace quantities almost everywhere, produced by decaying organic matter, industrial activity and vehicle exhaust. Urban air has more of it. So does air near a kitchen, because onions, eggs and mustard all release sulphur compounds while cooking.</p>
+      <p>But the biggest single source for most people is their own body. Human sweat contains cysteine and methionine — sulphur-bearing amino acids — along with sodium chloride and lactic acid. This is why a ring worn daily tarnishes faster than an identical ring left in a drawer, and why the inside of a band goes dark before the outside.</p>
+      <p>Humidity is the accelerant rather than the cause. Water provides the medium the reaction needs to proceed quickly. Below about 40% relative humidity, tarnishing is slow. Above 60% it speeds up markedly, and during a monsoon, when indoor humidity can sit above 80% for weeks, unprotected silver can visibly dull in days.</p>
+
+      <h2>What a barrier coating does</h2>
+      <p>Since you cannot change silver's chemistry, the only option is to keep the sulphur and the silver apart. That is the entire principle behind every anti-tarnish treatment: a layer between the base metal and the air.</p>
+      <p>Where treatments differ is in what that layer is made of, how thick it is, and — the detail almost nobody mentions — whether it has been sealed.</p>
+      <p>Electroplating deposits metal from a solution, and the resulting layer is not perfectly continuous. It contains microscopic pores. If those pores are left open, air and moisture travel through them and reach the base metal underneath. The piece then tarnishes <em>beneath</em> its own plating, which shows up as dark blotches that no amount of polishing will touch, because the discolouration is not on the surface you can reach.</p>
+      <p>This is the single most common failure in "anti-tarnish" jewelry, and it is why we apply a clear electrophoretic coating — an e-coat — over the metal barrier on every plated piece. The e-coat fills the pores. It is invisible, it adds no meaningful thickness, and it is the difference between a finish that lasts six weeks and one that lasts a year.</p>
+
+      <h2>Not all barriers are equal</h2>
+      <p>Rhodium is a platinum-group metal that does not oxidise under normal conditions at all. Plated over sterling silver at a genuine two microns, sealed, it is an excellent barrier and it is also what gives white gold its brightness. Thin rhodium — half a micron, which is common in cheap jewelry — wears through at contact points within months.</p>
+      <p>Physical vapour deposition works differently and is better. Inside a vacuum chamber, gold is vaporised and the atoms bond to the steel substrate at a molecular level, rather than being deposited as a discrete layer sitting on top. There is no interface to fail and no pores to seal. PVD on 316L stainless steel is the most durable finish available at any reasonable price, which is why the pieces we make that way carry a 24-month guarantee instead of 12.</p>
+      <p>Gold over brass is the most common construction in fashion jewelry and the most variable in quality. The two questions worth asking are the thickness in microns — under one micron is decorative, not durable — and whether the plating happened before or after assembly. Plating before assembly leaves joints, jump rings and the inner faces of twisted chains uncoated, and those are exactly the places that fail first.</p>
+
+      <h2>The claims to be sceptical of</h2>
+      <p>"Tarnish-proof" and "never tarnishes" are overclaims on any plated piece at any price under several times ours. A barrier is a physical object; physical objects wear. A scratch deep enough to breach the coating creates a starting point for tarnish that will spread from that spot.</p>
+      <p>"Waterproof" is similarly slippery. Our steel and plated-brass pieces genuinely are rated for showers and swimming. But a piece set with a freshwater pearl or a moonstone is not, regardless of what the metal can handle, because the stone is porous and the adhesive in the setting is not designed for prolonged soaking. Any brand that gives you one blanket water rating for its whole catalogue has not thought about it carefully.</p>
+      <p>The useful question to ask is not "is it anti-tarnish?" but "what is the barrier, how thick is it, is it sealed, and how long will you guarantee it?" A brand that can answer all four has done the work. One that answers with adjectives has not.</p>
+
+      <h2>What to do with this</h2>
+      <p>Buy for the barrier, not the adjective. Check the material and the guarantee length on the product page — we list both on every piece, along with whether it is water-rated. Then give it the thirty seconds of care described in our <a href="care-guide.html">care guide</a>: wipe it, store it dry, and put it on after your perfume rather than before.</p>
+      <p>That is genuinely the whole thing. The chemistry is simple once you know what is happening, and the habits that follow from it are small.</p>
+
+    </article>
+    <div class="share">
+      <span style="font-size:var(--fs-xs);color:var(--muted);margin-right:var(--s-2)">Share</span>
+      <a href="https://wa.me/?text=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29%20https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15L2 22l5.1-1.4A9.9 9.9 0 1 0 12 2zm0 1.8a8.1 8.1 0 1 1-4.2 15l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 0 1 12 3.8zm-3.3 4c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4 1.9.8 2.3.7 2.7.6.4 0 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.4-.3l-1.4-.7c-.2-.1-.4-.1-.5.1l-.6.8c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.4-.5c.1-.2.1-.3 0-.5l-.6-1.4c-.2-.4-.3-.4-.5-.4h-.6z"/></svg></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5H16.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V14h2.7v8h3.5z"/></svg></a>
+      <a href="https://twitter.com/intent/tweet?text=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29&url=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 3h3.2l-7 8 7.3 10h-5.6l-4.4-6-5 6H2.8l7.3-8.6L3.1 3h5.7l4.1 5.6L17.5 3zm-1.1 16h1.7L7.6 4.8H5.8L16.4 19z"/></svg></a>
+      <a href="https://pinterest.com/pin/create/button/?url=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html&description=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29" target="_blank" rel="noopener" aria-label="Save to Pinterest"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.7 19.3c-.1-.8-.2-2 0-2.9l1.2-5.1s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 1-.6 2.4-.9 3.8-.3 1.1.6 2 1.7 2 2 0 3.4-2.6 3.4-5.6 0-2.3-1.6-4-4.4-4-3.2 0-5.2 2.4-5.2 5 0 .9.3 1.6.7 2.1.1.2.2.3.1.5l-.3 1.1c0 .2-.2.3-.4.2-1.1-.5-1.8-2-1.8-3.3 0-2.7 2.2-6.1 6.7-6.1 3.6 0 6 2.6 6 5.4 0 3.7-2.1 6.5-5.1 6.5-1 0-2-.5-2.3-1.2l-.6 2.4c-.2.9-.8 2-1.2 2.7A10 10 0 1 0 12 2z"/></svg></a>
+      <a href="mailto:?subject=What%20anti-tarnish%20actually%20means%20%28and%20what%20it%20doesn%27t%29&body=https%3A//himanpatidar.github.io/Aurelia/blog-anti-tarnish-explained.html" aria-label="Share by email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg></a>
+    </div>
+    <nav class="between" style="margin-top:var(--s-12);padding-top:var(--s-8);border-top:1px solid var(--line)" aria-label="More articles"><span></span><a class="btn-text" href="blog-silver-vs-gold-plated.html" style="text-align:right">Sterling silver vs gold-plated vs steel: which should you buy? →</a></nav>
+  </div>
+</div>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Mentioned in this article</span>
+      <h2>Pieces that fit</h2>
+    </div>
+    <div class="product-grid" id="article-products" data-products="eterna-solitaire-ring,lumen-huggie-hoops,mira-herringbone-necklace,sable-cuff-bracelet" aria-busy="true">
+      <p style="color:var(--muted)">Loading…</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<!-- #site-footer:start — edit here, then run: node tools/sync-chrome.mjs -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="stack stack-5">
+        <a class="brand" href="index.html" aria-label="Aurelia — home">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E3CFA3"/><stop offset="1" stop-color="#9C7C3F"/></linearGradient></defs><circle cx="24" cy="24" r="22" fill="none" stroke="url(#bm)" stroke-width="1.5"/><path d="M24 9l11 26h-4.6l-2.5-6.2h-7.8L17.6 35H13L24 9zm0 8.4l-2.9 7.3h5.8L24 17.4z" fill="url(#bm)"/></svg>
+        <span>Aurelia<small>Anti-Tarnish Fine Jewelry</small></span>
+      </a>
+        <p style="font-size:var(--fs-sm);max-width:34ch">Jewelry engineered to stay bright — rhodium, PVD and sealed-gold barriers on every piece we make.</p>
+        <div class="stack stack-3">
+          <h3>Get the care guide</h3>
+          <form class="newsletter" data-newsletter novalidate>
+            <label class="sr-only" for="nl-email">Email address</label>
+            <input class="input" id="nl-email" name="email" type="email" placeholder="you@example.com" required autocomplete="email">
+            <button class="btn btn-gold" type="submit">Subscribe</button>
+          </form>
+          <p style="font-size:var(--fs-xs);opacity:.6">Demo form — no address is stored or sent.</p>
+        </div>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul class="footer-links">
+          <li><a href="shop.html">All jewelry</a></li>
+          <li><a href="shop.html?category=rings">Rings</a></li>
+          <li><a href="shop.html?category=earrings">Earrings</a></li>
+          <li><a href="shop.html?category=necklaces">Necklaces</a></li>
+          <li><a href="shop.html?category=bracelets">Bracelets</a></li>
+          <li><a href="shop.html?category=sets">Jewelry sets</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Learn</h3>
+        <ul class="footer-links">
+          <li><a href="anti-tarnish.html">Anti-tarnish technology</a></li>
+          <li><a href="care-guide.html">Jewelry care guide</a></li>
+          <li><a href="blog.html">The Journal</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Help</h3>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="shipping-returns.html">Shipping &amp; returns</a></li>
+          <li><a href="account.html">Track an order</a></li>
+          <li><a href="about.html">About Aurelia</a></li>
+        </ul>
+      </div>
+      <div class="stack stack-4">
+        <h3>Follow</h3>
+        <div class="socials">
+          <a href="https://instagram.com/" rel="me noopener" target="_blank" aria-label="Aurelia on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://facebook.com/" rel="me noopener" target="_blank" aria-label="Aurelia on Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5H16.7V4.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.3V14h2.7v8h3.5z"/></svg></a>
+          <a href="https://pinterest.com/" rel="me noopener" target="_blank" aria-label="Aurelia on Pinterest"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.7 19.3c-.1-.8-.2-2 0-2.9l1.2-5.1s-.3-.6-.3-1.6c0-1.5.9-2.6 2-2.6.9 0 1.4.7 1.4 1.5 0 1-.6 2.4-.9 3.8-.3 1.1.6 2 1.7 2 2 0 3.4-2.6 3.4-5.6 0-2.3-1.6-4-4.4-4-3.2 0-5.2 2.4-5.2 5 0 .9.3 1.6.7 2.1.1.2.2.3.1.5l-.3 1.1c0 .2-.2.3-.4.2-1.1-.5-1.8-2-1.8-3.3 0-2.7 2.2-6.1 6.7-6.1 3.6 0 6 2.6 6 5.4 0 3.7-2.1 6.5-5.1 6.5-1 0-2-.5-2.3-1.2l-.6 2.4c-.2.9-.8 2-1.2 2.7A10 10 0 1 0 12 2z"/></svg></a>
+          <a href="https://wa.me/919876543210" rel="noopener" target="_blank" aria-label="Message Aurelia on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15L2 22l5.1-1.4A9.9 9.9 0 1 0 12 2zm0 1.8a8.1 8.1 0 1 1-4.2 15l-.3-.2-3 .8.8-2.9-.2-.3A8.1 8.1 0 0 1 12 3.8zm-3.3 4c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2s.8 2.2.9 2.4c.1.2 1.6 2.5 3.9 3.4 1.9.8 2.3.7 2.7.6.4 0 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.4-.3l-1.4-.7c-.2-.1-.4-.1-.5.1l-.6.8c-.1.2-.3.2-.5.1-.2-.1-.9-.3-1.7-1-.6-.6-1.1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.4-.5c.1-.2.1-.3 0-.5l-.6-1.4c-.2-.4-.3-.4-.5-.4h-.6z"/></svg></a>
+        </div>
+        <p style="font-size:var(--fs-xs);opacity:.7">Unit 12, Jewellers' Lane<br>Bandra West, Mumbai 400050, India<br><a href="mailto:hello@aurelia.example">hello@aurelia.example</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year>2026</span> Aurelia. Demonstration storefront — no payments are processed.</p>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="shipping-returns.html">Shipping &amp; returns</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<!-- #site-footer:end -->
+<!-- #site-drawers:start -->
+<div class="drawer" id="nav-drawer" data-side="left" data-open="false">
+  <div class="drawer-scrim" data-drawer-close></div>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer-head">
+      <h2>Menu</h2>
+      <button type="button" class="icon-btn" data-drawer-close aria-label="Close menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="drawer-body">
+      <nav class="drawer-nav" aria-label="Mobile">
+        <a href="shop.html">Shop</a>
+        <a href="anti-tarnish.html">Anti-Tarnish</a>
+        <a href="care-guide.html">Care</a>
+        <a href="blog.html">Journal</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="drawer-nav-head">Shop by category</span>
+        <a href="shop.html?category=rings">Rings</a>
+        <a href="shop.html?category=earrings">Earrings</a>
+        <a href="shop.html?category=necklaces">Necklaces</a>
+        <a href="shop.html?category=bracelets">Bracelets</a>
+        <a href="shop.html?category=sets">Jewelry Sets</a>
+        <span class="drawer-nav-head">Your account</span>
+        <a href="account.html">Orders &amp; wishlist</a>
+        <a href="cart.html">Your bag</a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="drawer" id="cart-drawer" data-open="false">
+  <div class="drawer-scrim" data-drawer-close></div>
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Your bag">
+    <div class="drawer-head">
+      <h2>Your bag</h2>
+      <button type="button" class="icon-btn" data-drawer-close aria-label="Close bag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="drawer-body" id="cart-drawer-body"></div>
+    <div class="drawer-foot" id="cart-drawer-foot"></div>
+  </div>
+</div>
+<!-- #site-drawers:end -->
+<script type="module" src="assets/js/ui.js"></script>
+<script type="module" src="assets/js/page-article.js"></script>
+</body>
+</html>

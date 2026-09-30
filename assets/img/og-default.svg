@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Aurelia — anti-tarnish jewelry">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E0E10"/><stop offset="1" stop-color="#241d12"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E3CFA3"/><stop offset="1" stop-color="#C6A15B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="315" r="210" fill="none" stroke="#C6A15B" stroke-width="1.5" opacity=".35"/>
+  <circle cx="1010" cy="315" r="150" fill="none" stroke="#C6A15B" stroke-width="1.5" opacity=".55"/>
+  <text x="96" y="250" font-family="Georgia, serif" font-size="96" letter-spacing="14" fill="url(#g)">AURELIA</text>
+  <text x="100" y="312" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="7" fill="#FAF8F5" opacity=".75">ANTI-TARNISH FINE JEWELRY</text>
+  <text x="100" y="404" font-family="Georgia, serif" font-size="40" fill="#FAF8F5">Jewelry that stays bright.</text>
+  <text x="100" y="456" font-family="Georgia, serif" font-size="40" fill="#FAF8F5" opacity=".6">Not just on day one.</text>
+  <rect x="100" y="510" width="230" height="3" fill="url(#g)"/>
+</svg>

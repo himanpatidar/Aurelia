@@ -1,0 +1,936 @@
+{
+  "_readme": "Aurelia product catalog. Replace this file with your real products. Each image 'url' is a base URL (no query string) — assets/js/catalog.js appends width/quality params and builds a srcset. 'fallback' is a local SVG shown automatically if the remote image fails. Prices are integers in INR (no decimals).",
+  "_imageNote": "The Unsplash photos below are PLACEHOLDERS for layout only and are not licensed as your product imagery. Replace each 'url' with your own photo path (e.g. assets/img/products/eterna-ring-1.jpg).",
+  "currency": "INR",
+  "categories": [
+    {
+      "slug": "rings",
+      "label": "Rings"
+    },
+    {
+      "slug": "earrings",
+      "label": "Earrings"
+    },
+    {
+      "slug": "necklaces",
+      "label": "Necklaces"
+    },
+    {
+      "slug": "pendants",
+      "label": "Pendants"
+    },
+    {
+      "slug": "chains",
+      "label": "Chains"
+    },
+    {
+      "slug": "bracelets",
+      "label": "Bracelets"
+    },
+    {
+      "slug": "anklets",
+      "label": "Anklets"
+    },
+    {
+      "slug": "sets",
+      "label": "Jewelry Sets"
+    }
+  ],
+  "materials": [
+    {
+      "slug": "925-sterling-silver",
+      "label": "925 Sterling Silver"
+    },
+    {
+      "slug": "gold-plated-brass",
+      "label": "18K Gold-Plated Brass"
+    },
+    {
+      "slug": "rose-gold-plated",
+      "label": "Rose Gold-Plated"
+    },
+    {
+      "slug": "stainless-steel",
+      "label": "Surgical Stainless Steel"
+    }
+  ],
+  "products": [
+    {
+      "id": "aur-rng-001",
+      "slug": "eterna-solitaire-ring",
+      "name": "Eterna Solitaire Ring",
+      "category": "rings",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 2499,
+      "compareAtPrice": 3199,
+      "shortDescription": "A single lab-grown zircon on a knife-edge band, sealed with our dual anti-tarnish barrier.",
+      "description": "The Eterna is our most-worn ring for a reason: it reads as fine jewelry but survives an ordinary Tuesday. The knife-edge band tapers toward a four-prong setting that lifts a 5mm lab-grown white zircon high enough to catch light from across a room. Underneath the shine, a 2-micron rhodium layer and a clear e-coat seal the silver away from air, sweat and humidity — the three things that turn ordinary sterling grey within weeks.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Stone": "5mm lab-grown white zircon",
+        "Setting": "Four-prong solitaire",
+        "Band width": "1.8 mm",
+        "Weight": "3.2 g"
+      },
+      "sizes": [
+        "12",
+        "14",
+        "16",
+        "18",
+        "20"
+      ],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + clear e-coat",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "bestseller"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 216,
+      "featured": true,
+      "addedOn": "2026-03-14",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1605100804763-247f67b3557e",
+          "fallback": "assets/img/placeholders/rings.svg",
+          "alt": "A solitaire ring with a halo setting on a dark surface"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1627293509201-cd0c780043e6",
+          "fallback": "assets/img/placeholders/rings.svg",
+          "alt": "Two slim bands photographed on white fabric"
+        }
+      ]
+    },
+    {
+      "id": "aur-rng-002",
+      "slug": "halo-stack-ring-set",
+      "name": "Halo Stack Ring Set",
+      "category": "rings",
+      "material": "gold-plated-brass",
+      "finish": "18K gold-plated",
+      "price": 1899,
+      "compareAtPrice": 2499,
+      "shortDescription": "Three stackable bands — plain, twisted and pavé — designed to be worn together or apart.",
+      "description": "Stacking rings usually fail in one of two ways: they scratch each other, or the plating wears through where they rub. The Halo set is engineered against both. Each band is finished with a hardened 18K gold layer over brass, then sealed, so the contact points stay gold rather than going coppery. Wear all three on one finger, split them across two, or pair the pavé band alone with the Eterna.",
+      "specs": {
+        "Metal": "Brass core",
+        "Plating": "18K gold, 1.5 microns",
+        "Stones": "Cubic zirconia pavé (one band)",
+        "Set contents": "3 rings — plain, twisted, pavé",
+        "Band width": "1.2–2.0 mm",
+        "Weight": "4.6 g (all three)"
+      },
+      "sizes": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "antiTarnish": {
+        "technology": "Hardened gold layer + protective seal",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 94,
+      "featured": false,
+      "addedOn": "2026-04-02",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1543294001-f7cd5d7fb516",
+          "fallback": "assets/img/placeholders/rings.svg",
+          "alt": "Stacked gold bands set with small stones"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617038220319-276d3cfab638",
+          "fallback": "assets/img/placeholders/rings.svg",
+          "alt": "Gold rings resting on a pale stone"
+        }
+      ]
+    },
+    {
+      "id": "aur-ear-001",
+      "slug": "lumen-huggie-hoops",
+      "name": "Lumen Huggie Hoops",
+      "category": "earrings",
+      "material": "stainless-steel",
+      "finish": "PVD gold",
+      "price": 1299,
+      "compareAtPrice": null,
+      "shortDescription": "12mm huggies in PVD-coated surgical steel. Sleep in them, shower in them, swim in them.",
+      "description": "These are the earrings you stop taking off. Surgical stainless steel is already the most corrosion-resistant metal we work with; a PVD gold coating bonds to it at a molecular level rather than sitting on top, which is why the Lumen survives chlorine, seawater and sunscreen without dulling. The hinge clicks shut flush against the lobe, so nothing catches on a jumper or a pillow.",
+      "specs": {
+        "Metal": "316L surgical stainless steel",
+        "Plating": "PVD gold",
+        "Diameter": "12 mm",
+        "Thickness": "2.5 mm",
+        "Closure": "Hinged snap-back",
+        "Weight": "1.8 g (pair)"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "PVD molecular bonding on 316L steel",
+        "warranty": "24-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "bestseller"
+      ],
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 341,
+      "featured": true,
+      "addedOn": "2026-02-20",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "Gold hoop earrings resting on a cream box"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1603974372039-adc49044b6bd",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "Gold hoop earrings and a fine chain on an open book"
+        }
+      ]
+    },
+    {
+      "id": "aur-ear-002",
+      "slug": "aurora-drop-earrings",
+      "name": "Aurora Drop Earrings",
+      "category": "earrings",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 2199,
+      "compareAtPrice": 2799,
+      "shortDescription": "A graduated trio of zircon stones that moves with you. Weighted to sit forward, not sideways.",
+      "description": "Most drop earrings rotate the moment you move, showing the clasp instead of the stone. Aurora's post sits slightly behind the centre of gravity so the drop stays facing forward all evening. Three graduated lab-grown zircons taper from 6mm to 3mm on a rhodium-sealed sterling frame — bright enough for a wedding, light enough at 4.1g that you forget they are on.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Stones": "3 × lab-grown zircon (6mm, 4mm, 3mm)",
+        "Drop length": "34 mm",
+        "Closure": "Butterfly back",
+        "Weight": "4.1 g (pair)"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + clear e-coat",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "new"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 58,
+      "featured": false,
+      "addedOn": "2026-08-11",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "Gem-set drop earrings photographed on a green leaf"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1630019852942-f89202989a59",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "A pair of crystal drop earrings on pale fabric"
+        }
+      ]
+    },
+    {
+      "id": "aur-ear-003",
+      "slug": "celeste-pearl-studs",
+      "name": "Celeste Pearl Studs",
+      "category": "earrings",
+      "material": "rose-gold-plated",
+      "finish": "Rose gold-plated",
+      "price": 1499,
+      "compareAtPrice": null,
+      "shortDescription": "8mm freshwater pearls on sealed rose-gold posts. The pair you can wear to anything.",
+      "description": "Real freshwater pearls, hand-matched for lustre and shape, set on rose gold-plated sterling posts. Pearls are porous and hate the chemicals in perfume and hairspray, so the setting does the protecting: the cup is sealed at the join, which keeps moisture from creeping under the pearl and loosening the adhesive — the usual reason cheap pearl studs fall apart in a year.",
+      "specs": {
+        "Metal": "925 sterling silver core",
+        "Plating": "Rose gold, 1.5 microns",
+        "Stone": "8 mm AA freshwater pearl",
+        "Closure": "Screw-back post",
+        "Weight": "2.4 g (pair)",
+        "Pearl note": "Natural variation in every pearl"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Sealed rose gold plating + protected pearl cup",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": false,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 127,
+      "featured": false,
+      "addedOn": "2026-05-09",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1590166223826-12dee1677420",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "A pearl drop earring worn on the ear"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1629224316810-9d8805b95e76",
+          "fallback": "assets/img/placeholders/earrings.svg",
+          "alt": "Rose gold drop earrings set with pale stones"
+        }
+      ]
+    },
+    {
+      "id": "aur-nck-001",
+      "slug": "solene-layered-necklace",
+      "name": "Solène Layered Necklace",
+      "category": "necklaces",
+      "material": "gold-plated-brass",
+      "finish": "18K gold-plated",
+      "price": 2899,
+      "compareAtPrice": 3699,
+      "shortDescription": "Two chains, one clasp. The layered look without the morning spent untangling it.",
+      "description": "Layering two necklaces looks effortless and is anything but — they knot, they slide, and one always sits crooked. Solène solves it by joining a 16-inch box chain and an 18-inch cable chain to a single welded spacer behind the neck, so the spacing never shifts and nothing tangles. Both chains carry the same hardened 18K gold layer and protective seal, so they age at the same rate and stay matched.",
+      "specs": {
+        "Metal": "Brass core",
+        "Plating": "18K gold, 1.5 microns",
+        "Chain lengths": "16\" + 18\" (welded spacer)",
+        "Chain styles": "Box + cable",
+        "Clasp": "Lobster with 2\" extender",
+        "Weight": "6.8 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Hardened gold layer + protective seal",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "bestseller"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 189,
+      "featured": true,
+      "addedOn": "2026-03-28",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236",
+          "fallback": "assets/img/placeholders/necklaces.svg",
+          "alt": "A layered gold chain necklace with a medallion pendant"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52",
+          "fallback": "assets/img/placeholders/necklaces.svg",
+          "alt": "Two layered necklaces worn at the chest"
+        }
+      ]
+    },
+    {
+      "id": "aur-nck-002",
+      "slug": "mira-herringbone-necklace",
+      "name": "Mira Herringbone Necklace",
+      "category": "necklaces",
+      "material": "stainless-steel",
+      "finish": "PVD gold",
+      "price": 2299,
+      "compareAtPrice": null,
+      "shortDescription": "A liquid-flat herringbone in PVD steel — the one herringbone that resists kinking.",
+      "description": "Herringbone chains drape like poured metal and kink like tinfoil. Mira is built in 316L stainless steel rather than soft plated brass, which gives each link the spring to lie flat and recover instead of creasing permanently at the first bend. The PVD gold coating is bonded, not brushed on, so the high-friction centre of the chain keeps its colour where a plated herringbone would go silver.",
+      "specs": {
+        "Metal": "316L surgical stainless steel",
+        "Plating": "PVD gold",
+        "Length": "18\" (46 cm)",
+        "Width": "4 mm",
+        "Clasp": "Lobster with 2\" extender",
+        "Weight": "11.2 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "PVD molecular bonding on 316L steel",
+        "warranty": "24-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "new"
+      ],
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 73,
+      "featured": false,
+      "addedOn": "2026-09-05",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1611652022419-a9419f74343d",
+          "fallback": "assets/img/placeholders/necklaces.svg",
+          "alt": "A fine chain necklace worn at the collarbone"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1531995811006-35cb42e1a022",
+          "fallback": "assets/img/placeholders/necklaces.svg",
+          "alt": "A woman wearing several layered gold necklaces"
+        }
+      ]
+    },
+    {
+      "id": "aur-pnd-001",
+      "slug": "vesper-initial-pendant",
+      "name": "Vesper Initial Pendant",
+      "category": "pendants",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 1799,
+      "compareAtPrice": null,
+      "shortDescription": "A hand-finished initial disc on an 18-inch chain. Choose any letter A–Z.",
+      "description": "A 14mm disc, engraved rather than stamped, so the letter keeps its crisp edge instead of softening with wear. The recessed engraving is the part that usually tarnishes first on silver pendants — dirt settles in the groove and oxidises. Vesper's e-coat runs into the engraving itself, which is why the letter stays bright long after an untreated pendant would need a polishing cloth.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Pendant": "14 mm disc, hand-engraved",
+        "Chain": "18\" rolo, included",
+        "Clasp": "Spring ring",
+        "Weight": "3.9 g"
+      },
+      "sizes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "H",
+        "J",
+        "K",
+        "M",
+        "N",
+        "P",
+        "R",
+        "S",
+        "T",
+        "V"
+      ],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + e-coat into engraving",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 152,
+      "featured": false,
+      "addedOn": "2026-04-19",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1589128777073-263566ae5e4d",
+          "fallback": "assets/img/placeholders/pendants.svg",
+          "alt": "A silver pendant on a box chain"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0",
+          "fallback": "assets/img/placeholders/pendants.svg",
+          "alt": "Several pendants hanging side by side"
+        }
+      ]
+    },
+    {
+      "id": "aur-pnd-002",
+      "slug": "astra-moonstone-pendant",
+      "name": "Astra Moonstone Pendant",
+      "category": "pendants",
+      "material": "rose-gold-plated",
+      "finish": "Rose gold-plated",
+      "price": 2599,
+      "compareAtPrice": 3199,
+      "shortDescription": "A 10mm rainbow moonstone in a bezel setting that shifts blue as you move.",
+      "description": "Rainbow moonstone does something no lab stone can imitate — an internal blue flash that slides across the surface as the light angle changes. Astra sets a 10mm cabochon in a full bezel rather than prongs, which protects the stone's soft edges and keeps moisture out of the setting. The rose gold plating is sealed over a sterling base, so the warm tone holds instead of drifting pink-to-brown.",
+      "specs": {
+        "Metal": "925 sterling silver core",
+        "Plating": "Rose gold, 1.5 microns",
+        "Stone": "10 mm rainbow moonstone cabochon",
+        "Setting": "Full bezel",
+        "Chain": "18\" box, included",
+        "Weight": "4.7 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Sealed rose gold plating + bezel moisture barrier",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": false,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 86,
+      "featured": true,
+      "addedOn": "2026-06-22",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1598560917505-59a3ad559071",
+          "fallback": "assets/img/placeholders/pendants.svg",
+          "alt": "A round stone pendant in a halo setting on a fine chain"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1600721391689-2564bb8055de",
+          "fallback": "assets/img/placeholders/pendants.svg",
+          "alt": "A pendant necklace worn at the neck"
+        }
+      ]
+    },
+    {
+      "id": "aur-chn-001",
+      "slug": "lira-cuban-chain",
+      "name": "Lira Cuban Chain",
+      "category": "chains",
+      "material": "stainless-steel",
+      "finish": "PVD gold",
+      "price": 1999,
+      "compareAtPrice": null,
+      "shortDescription": "A 5mm flat Cuban link with a box clasp that will not pop open mid-day.",
+      "description": "The failure point on almost every Cuban chain is the clasp: a lobster claw under constant tension eventually springs. Lira uses a double-locking box clasp with a side latch, rated well beyond the chain's own weight. Each link is diamond-cut on the top face before PVD coating, so the chain throws light from every angle rather than reading as a flat gold band.",
+      "specs": {
+        "Metal": "316L surgical stainless steel",
+        "Plating": "PVD gold",
+        "Length": "20\" (51 cm)",
+        "Width": "5 mm",
+        "Clasp": "Double-locking box clasp",
+        "Weight": "24.6 g"
+      },
+      "sizes": [
+        "18\"",
+        "20\"",
+        "22\"",
+        "24\""
+      ],
+      "antiTarnish": {
+        "technology": "PVD molecular bonding on 316L steel",
+        "warranty": "24-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "bestseller"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 204,
+      "featured": false,
+      "addedOn": "2026-01-30",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a",
+          "fallback": "assets/img/placeholders/chains.svg",
+          "alt": "A flat gold link chain laid on paper"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1603974372039-adc49044b6bd",
+          "fallback": "assets/img/placeholders/chains.svg",
+          "alt": "Gold hoop earrings and a fine chain on an open book"
+        }
+      ]
+    },
+    {
+      "id": "aur-chn-002",
+      "slug": "nova-rope-chain",
+      "name": "Nova Rope Chain",
+      "category": "chains",
+      "material": "gold-plated-brass",
+      "finish": "18K gold-plated",
+      "price": 1699,
+      "compareAtPrice": 2199,
+      "shortDescription": "A 3mm twisted rope that catches light along its whole length. Pairs under any pendant.",
+      "description": "Nova is the chain we recommend when someone wants one necklace to carry every pendant they own. The twisted rope construction is flexible enough to drape properly under a heavier stone but fine enough at 3mm to wear alone. The hardened 18K layer is applied after twisting, not before, so the inner faces of each twist are coated too — the spot where cheaper rope chains start showing brass.",
+      "specs": {
+        "Metal": "Brass core",
+        "Plating": "18K gold, 1.5 microns",
+        "Length": "18\" (46 cm)",
+        "Width": "3 mm",
+        "Clasp": "Lobster with 2\" extender",
+        "Weight": "8.4 g"
+      },
+      "sizes": [
+        "16\"",
+        "18\"",
+        "20\""
+      ],
+      "antiTarnish": {
+        "technology": "Post-twist hardened gold layer + seal",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": false,
+      "rating": 4.5,
+      "reviewCount": 111,
+      "featured": false,
+      "addedOn": "2026-02-08",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f",
+          "fallback": "assets/img/placeholders/chains.svg",
+          "alt": "Layered gold chains with a gemstone pendant"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1635767798638-3e25273a8236",
+          "fallback": "assets/img/placeholders/chains.svg",
+          "alt": "A layered gold chain necklace with a medallion pendant"
+        }
+      ]
+    },
+    {
+      "id": "aur-brc-001",
+      "slug": "elowen-tennis-bracelet",
+      "name": "Elowen Tennis Bracelet",
+      "category": "bracelets",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 3499,
+      "compareAtPrice": 4299,
+      "shortDescription": "Forty-two lab-grown zircons in a flexible channel, with a safety clasp that actually has a backup.",
+      "description": "A tennis bracelet spends its life on the part of your body that knocks into desks and door frames, so Elowen is built around two things: articulation and redundancy. Each of the 42 zircon settings pivots independently, letting the bracelet follow the wrist instead of standing proud of it. The box clasp carries a hinged figure-eight safety latch — if the primary clasp ever releases, the bracelet stays on your arm.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Stones": "42 × 3mm lab-grown zircon",
+        "Length": "7\" (18 cm)",
+        "Clasp": "Box clasp + figure-eight safety latch",
+        "Weight": "9.8 g"
+      },
+      "sizes": [
+        "6.5\"",
+        "7\"",
+        "7.5\""
+      ],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + clear e-coat",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.9,
+      "reviewCount": 67,
+      "featured": true,
+      "addedOn": "2026-05-30",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "A crystal-set bracelet photographed against black"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1619119069152-a2b331eb392a",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "A tennis bracelet set with a line of small stones"
+        }
+      ]
+    },
+    {
+      "id": "aur-brc-002",
+      "slug": "sable-cuff-bracelet",
+      "name": "Sable Open Cuff",
+      "category": "bracelets",
+      "material": "stainless-steel",
+      "finish": "Brushed steel",
+      "price": 1599,
+      "compareAtPrice": null,
+      "shortDescription": "A brushed open cuff you can adjust with your hands. No clasp to fail.",
+      "description": "Sable is deliberately clasp-free — an open cuff in 4mm 316L steel that you widen or narrow with gentle thumb pressure and that holds its shape indefinitely. The brushed finish is achieved mechanically rather than by coating, which means there is no plating to wear off at all; the corrosion resistance is a property of the metal itself. This is the single most durable piece we make.",
+      "specs": {
+        "Metal": "316L surgical stainless steel",
+        "Finish": "Mechanically brushed (no plating)",
+        "Inner circumference": "58 mm, adjustable",
+        "Width": "4 mm",
+        "Opening": "28 mm",
+        "Weight": "14.1 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Solid 316L steel — corrosion resistance is inherent",
+        "warranty": "Lifetime anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.7,
+      "reviewCount": 138,
+      "featured": false,
+      "addedOn": "2026-03-05",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "Wrists wearing several fine bracelets"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1633934542430-0905ccb5f050",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "Hands wearing several fine rings"
+        }
+      ]
+    },
+    {
+      "id": "aur-brc-003",
+      "slug": "isla-charm-bracelet",
+      "name": "Isla Charm Bracelet",
+      "category": "bracelets",
+      "material": "gold-plated-brass",
+      "finish": "18K gold-plated",
+      "price": 2099,
+      "compareAtPrice": null,
+      "shortDescription": "Four hand-set charms on a sealed cable chain — shell, star, pearl and coin.",
+      "description": "Charm bracelets tarnish at the jump rings first: dozens of tiny open joints, each one a place for moisture to sit. Isla's rings are soldered fully closed before plating, so there is no seam for air to reach the brass. Four charms — a scallop shell, an eight-point star, a 5mm freshwater pearl and an engraved coin — are spaced so they fall forward on the wrist rather than sliding into a cluster.",
+      "specs": {
+        "Metal": "Brass core",
+        "Plating": "18K gold, 1.5 microns",
+        "Charms": "Shell, star, pearl, engraved coin",
+        "Length": "7\" + 1.5\" extender",
+        "Clasp": "Lobster",
+        "Weight": "5.2 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Soldered-closed jump rings + hardened gold seal",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": false,
+        "sweatResistant": true
+      },
+      "badges": [
+        "new"
+      ],
+      "inStock": true,
+      "rating": 4.4,
+      "reviewCount": 42,
+      "featured": false,
+      "addedOn": "2026-09-18",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "An ornate rose gold bracelet on a pink background"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0",
+          "fallback": "assets/img/placeholders/bracelets.svg",
+          "alt": "A crystal-set bracelet photographed against black"
+        }
+      ]
+    },
+    {
+      "id": "aur-ank-001",
+      "slug": "tara-beaded-anklet",
+      "name": "Tara Beaded Anklet",
+      "category": "anklets",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 899,
+      "compareAtPrice": null,
+      "shortDescription": "Fine silver beads on a sealed chain — our most affordable piece, built to the same standard.",
+      "description": "Anklets take the worst of it: sand, seawater, chlorine, sunscreen and the constant friction of a shoe. Tara is the entry point to the collection but gets the identical rhodium-and-e-coat treatment as the Eterna ring, because a ₹899 anklet that goes grey in a month is not a bargain. Twenty-two 2.5mm beads, each one individually threaded and crimped rather than glued.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Beads": "22 × 2.5 mm",
+        "Length": "9\" + 1\" extender",
+        "Clasp": "Spring ring",
+        "Weight": "2.1 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + clear e-coat",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.6,
+      "reviewCount": 231,
+      "featured": false,
+      "addedOn": "2026-04-11",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1619119069152-a2b331eb392a",
+          "fallback": "assets/img/placeholders/anklets.svg",
+          "alt": "A tennis bracelet set with a line of small stones"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0",
+          "fallback": "assets/img/placeholders/anklets.svg",
+          "alt": "Several pendants hanging side by side"
+        }
+      ]
+    },
+    {
+      "id": "aur-ank-002",
+      "slug": "kiara-twin-chain-anklet",
+      "name": "Kiara Twin-Chain Anklet",
+      "category": "anklets",
+      "material": "rose-gold-plated",
+      "finish": "Rose gold-plated",
+      "price": 1199,
+      "compareAtPrice": 1499,
+      "shortDescription": "Two fine chains at staggered lengths, joined so they never twist around each other.",
+      "description": "The double-anklet look, executed so it survives walking. Two fine cable chains at 9 and 9.75 inches are fixed to a shared clasp at both ends, which stops the endless twisting that makes two separate anklets unwearable. Rose gold plating over sterling, sealed — and because the ankle is a high-sweat area, the seal matters more here than almost anywhere else you wear jewelry.",
+      "specs": {
+        "Metal": "925 sterling silver core",
+        "Plating": "Rose gold, 1.5 microns",
+        "Chain lengths": "9\" + 9.75\"",
+        "Chain width": "1.2 mm",
+        "Clasp": "Lobster with 1\" extender",
+        "Weight": "2.9 g"
+      },
+      "sizes": [],
+      "antiTarnish": {
+        "technology": "Sealed rose gold plating",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [],
+      "inStock": true,
+      "rating": 4.5,
+      "reviewCount": 76,
+      "featured": false,
+      "addedOn": "2026-06-14",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a",
+          "fallback": "assets/img/placeholders/anklets.svg",
+          "alt": "A flat gold link chain laid on paper"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1611652022419-a9419f74343d",
+          "fallback": "assets/img/placeholders/anklets.svg",
+          "alt": "A fine chain necklace worn at the collarbone"
+        }
+      ]
+    },
+    {
+      "id": "aur-set-001",
+      "slug": "aurelia-signature-set",
+      "name": "Aurelia Signature Set",
+      "category": "sets",
+      "material": "gold-plated-brass",
+      "finish": "18K gold-plated",
+      "price": 5499,
+      "compareAtPrice": 6999,
+      "shortDescription": "Necklace, huggies and a stack ring — the three pieces we get asked to put together most.",
+      "description": "Our most-gifted set, and the cheapest way into three pieces at once. It pairs the Solène layered necklace with a 10mm pair of gold huggies and a single twisted stack ring, all finished in the same 18K bath on the same day so the gold tone matches exactly across all three — something you cannot guarantee when buying pieces separately over time. Arrives in a lined box with a polishing cloth and care card.",
+      "specs": {
+        "Metal": "Brass core",
+        "Plating": "18K gold, 1.5 microns",
+        "Set contents": "Layered necklace, 10mm huggies, twisted stack ring",
+        "Batch-matched": "All pieces plated together",
+        "Packaging": "Lined gift box + cloth + care card",
+        "Weight": "13.6 g (total)"
+      },
+      "sizes": [
+        "Ring 12",
+        "Ring 14",
+        "Ring 16",
+        "Ring 18"
+      ],
+      "antiTarnish": {
+        "technology": "Hardened gold layer + protective seal",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "bestseller"
+      ],
+      "inStock": true,
+      "rating": 4.8,
+      "reviewCount": 98,
+      "featured": true,
+      "addedOn": "2026-07-01",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed",
+          "fallback": "assets/img/placeholders/sets.svg",
+          "alt": "An ornate gold bridal necklace set"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0",
+          "fallback": "assets/img/placeholders/sets.svg",
+          "alt": "Gold rings and a pearl arranged on a stone"
+        }
+      ]
+    },
+    {
+      "id": "aur-set-002",
+      "slug": "noor-bridal-set",
+      "name": "Noor Bridal Set",
+      "category": "sets",
+      "material": "925-sterling-silver",
+      "finish": "Rhodium-plated",
+      "price": 6499,
+      "compareAtPrice": null,
+      "shortDescription": "Statement necklace, drop earrings and a tennis bracelet, matched for the day and after it.",
+      "description": "Bridal jewelry usually gets worn once and then sits in a drawer going grey. Noor is designed against that: every piece is rhodium-sealed sterling, so the set comes out of storage in a year looking the way it did on the day. A graduated zircon collar necklace, matching 38mm drops and a 7-inch tennis bracelet, all set with the same grade of lab-grown stone so nothing reads brighter than anything else in photographs.",
+      "specs": {
+        "Metal": "925 sterling silver",
+        "Plating": "Rhodium, 2 microns",
+        "Set contents": "Collar necklace, 38mm drop earrings, tennis bracelet",
+        "Stones": "168 × lab-grown zircon (total)",
+        "Packaging": "Hard-shell travel case + cloth",
+        "Weight": "38.4 g (total)"
+      },
+      "sizes": [
+        "Bracelet 6.5\"",
+        "Bracelet 7\"",
+        "Bracelet 7.5\""
+      ],
+      "antiTarnish": {
+        "technology": "Rhodium barrier + clear e-coat",
+        "warranty": "12-month anti-tarnish guarantee",
+        "waterResistant": true,
+        "sweatResistant": true
+      },
+      "badges": [
+        "new"
+      ],
+      "inStock": true,
+      "rating": 5.0,
+      "reviewCount": 24,
+      "featured": false,
+      "addedOn": "2026-09-26",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338",
+          "fallback": "assets/img/placeholders/sets.svg",
+          "alt": "A pearl strand presented in a lined jewelry box"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1608042314453-ae338d80c427",
+          "fallback": "assets/img/placeholders/sets.svg",
+          "alt": "Rings set with coloured stones on a stone slab"
+        }
+      ]
+    }
+  ]
+}
